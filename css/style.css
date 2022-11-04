@@ -1,0 +1,375 @@
+* {
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.headersection {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.barminitop {
+  width: auto;
+  height: 20px;
+  top: 0px;
+  background: #222222;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 8pt;
+  color: #F3F3F3;
+  padding: 0.3rem;
+}
+
+.barminitop div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: center;
+  padding-right: 3rem;
+  height: 20px;
+}
+
+.barminitop span {
+  padding: 0.2rem 0.5rem;
+}
+
+.barminitop div p {
+  padding: 0.3rem;
+}
+
+.headermenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #F0A83E;
+  padding: 1rem 3rem;
+}
+
+.headermenu nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+  color: #FFFFFF;
+  padding-right: 40px;
+}
+
+.headermenu nav ul li {
+  padding-left: 1rem;
+}
+
+.headermenu nav ul li a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.headermenu nav ul li a:hover {
+  color: #3C2313;
+}
+
+.headbanner {
+  background-color: #8FD3AE;
+  background-image: url(../img/bowl-and-pet-daities-on-green-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: padding-box;
+  height: 409px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
+
+.headbanner h3 {
+  background-color: #FFFFFF;
+  color: #3C2313;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  font-size: xx-large;
+  font-weight: 400;
+  padding: 1rem;
+  text-align: center;
+  width: 70%;
+}
+
+.headbanner h3,
+p {
+  margin-bottom: 1rem;
+}
+
+.boxrighthead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+#btnproduct {
+  padding: 1rem;
+  color: #FFFFFF;
+  background-color: #F0A83E;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#btnproduct:hover {
+  background-color: #966719;
+}
+
+.detailsproductsection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxtitledetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxtitledetails img, h2, ul {
+  padding: 0.5rem;
+}
+
+.boxtitledetails h2 {
+  color:#3C2313;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.boxtitledetails li {
+  display: inline-flex;
+  padding: 1rem;
+}
+
+.boxdetailsproducts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.boxdetailsproducts div {
+  margin: 1rem;
+  text-align: center;
+  background-color: #FBFAF6;
+}
+
+.contactsection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.formcontact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;  
+}
+
+.formcontact h2 {
+  color:#3C2313;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.formcontact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formcontact form input {
+  background-color: #3C2313;
+  color: #FFFFFF;
+  font-size: 11pt;
+  padding: 1rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  width: 340px;
+  height: 40px;
+  margin: 0.5rem;
+}
+
+::placeholder {
+  color: #FFFFFF;
+  font-size: 8pt;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #FFFFFF;
+  font-size: 8pt;
+}
+
+::-ms-input-placeholder {
+  color: #FFFFFF;
+  font-size: 8pt;
+}
+
+.btnsform {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2.5rem;
+  width: -webkit-fill-available;
+}
+
+.btnsform input {
+  width: 110px;
+  height: 34px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  font-weight: 400;
+  font-size: 16px !important;
+  line-height: 19px;
+  border: none;
+  color: #FFFFFF;
+  font-size: larger;
+}
+
+.btnreset {
+  background-color: #8A8787;
+}
+
+.btnsend {
+  background-color: #F0A83E;
+}
+
+.boxsubscribe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1.5rem;
+  background-color: #F0A83E;
+}
+
+.boxsubscribe h3 {
+  width: -webkit-fill-available;
+  padding-left: 2rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+.boxformsuscribe {
+  display: flex;
+  padding: 0 1.5rem;
+  justify-content: space-between;
+}
+
+#suscribetxtemail {
+  width: 271px;
+  height: 40px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  background-color: #FFFFFF;
+  color:#222222;
+  margin-right: 2%;
+  border: none;
+  padding-left: 0.5rem;
+}
+
+#suscribetxtemail::placeholder {
+  color: silver;
+  font-size: 8pt;
+  padding-left: 0.3rem;
+  opacity: 1;
+}
+
+#suscribetxtemail::-ms-input-placeholder {
+  color: silver;
+  padding-left: 0.3rem;
+  font-size: 8pt;
+}
+
+#suscribetxtemail::-ms-input-placeholder {
+  color: silver;
+  padding-left: 0.3rem;
+  font-size: 8pt;
+}
+
+#suscribebtnsend {
+  background-color: #3C2313;
+  height: 40px;
+  color: #FFFFFF;
+  font-size: 9pt;
+  padding: 0 0.8rem;
+  border: none;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+#suscribebtnsend:hover {
+  background-color: #966719;
+  cursor: pointer;
+}
+
+.footermedia{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3C2313;
+  padding: 3rem 7rem;
+  color: white;
+}
+
+.iconsmedia {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  align-items: center;
+}
+
+.iconsmedia div {
+  padding-inline-start: 1rem;
+}
+
+.iconsmedia h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+}
+.iconsmedia p {
+  color: #8A8787;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.minifooterbar{
+  background-color: #000000;
+  color: white;
+  font-size: 9pt;
+  height: 22px;
+  line-height: 22px;
+  text-align: center;
+}
